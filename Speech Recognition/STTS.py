@@ -1,5 +1,5 @@
 from translate import Translator
-import Wit as wit
+import UserInput as UI
 import win32com.client
 
 def main():
@@ -11,13 +11,13 @@ def main():
             
             print("What language would you like your text translated to?")
             speaker.Speak("What language would you like your text translated to?")
-            lang = wit.talk().lower()
+            lang = UI.talk().lower()
             speaker.Speak('You chose {}'.format(lang))
             print("Say something to the bot to convert...")
             speaker.Speak("Say something to the bot to convert...")
             
             print("Human: ")
-            request = wit.talk().lower()
+            request = UI.talk().lower()
             if(request.lower() == 'exit'):
                 print('Getting you otta here!')
                 speaker.Speak('You have requested to exit, so we are getting you otta here! We hope you got your query resolved, Thank you for using our service')
