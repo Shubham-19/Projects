@@ -4,4 +4,4 @@ This is the Python impletation of Daniel Shiiffman's code which he wrote in a co
 
 Also, you can find the original Javascript and Processing (Java) versions of the code at https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_069_steering_evolution
 
-I stongly recommend to check his works @CodingTrain
+I stongly recommend to check his works on YouTube @CodingTrain @shiffman
